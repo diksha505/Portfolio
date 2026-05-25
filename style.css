@@ -636,47 +636,43 @@ font-size:15px;
 
 @media(max-width:480px){
 
-.hero{
+    .hero{
 display:flex !important;
 flex-direction:row !important;
 justify-content:space-between !important;
-align-items:center !important;
-gap:15px !important;
+align-items:flex-start !important;
+text-align:left !important;
+gap:10px !important;
 padding-top:140px;
 }
 
 .hero-left{
-width:55% !important;
+width:58% !important;
 }
 
 .hero-right{
-width:45% !important;
+width:42% !important;
 display:flex;
 justify-content:center;
+margin-top:120px;
 }
 
 .circle-wrapper{
-width:190px !important;
-height:190px !important;
+width:180px !important;
+height:180px !important;
 position:relative;
-display:flex;
-justify-content:center;
-align-items:center;
 }
 
 .outer-circle{
-width:190px !important;
-height:190px !important;
-border-radius:50%;
+width:180px !important;
+height:180px !important;
 }
 
 .inner-circle{
-width:150px !important;
-height:150px !important;
-top:20px !important;
-left:20px !important;
-border-radius:50%;
-overflow:hidden;
+width:145px !important;
+height:145px !important;
+top:17px !important;
+left:17px !important;
 }
 .hero-buttons{
 align-items:center;
