@@ -636,50 +636,42 @@ font-size:15px;
 
 @media(max-width:480px){
 
-    .hero{
-display:flex !important;
-flex-direction:row !important;
-justify-content:space-between !important;
-align-items:flex-start !important;
-text-align:left !important;
-gap:10px !important;
-padding-top:140px;
+.hero{
+display:grid !important;
+grid-template-columns:60% 40% !important;
+align-items:center !important;
+gap:5px !important;
+padding-top:120px;
 }
 
 .hero-left{
-width:58% !important;
+width:100% !important;
 }
 
 .hero-right{
-width:42% !important;
-display:flex;
-justify-content:center;
-align-items: center;
-margin: top 0 !important;
-}
-
-.circle-wrapper{
-width:170px !important;
-height:170px !important;
-position:relative;
+width:100% !important;
 display:flex;
 justify-content:center;
 align-items:center;
+margin-top:0 !important;
+}
+
+.circle-wrapper{
+width:130px !important;
+height:130px !important;
+position:relative;
 }
 
 .outer-circle{
-width:170px !important;
-height:170px !important;
-border-radius:50%;
+width:130px !important;
+height:130px !important;
 }
 
 .inner-circle{
-width:138px !important;
-height:138px !important;
-top:16px !important;
-left:16px !important;
-border-radius:50%;
-overflow:hidden;
+width:105px !important;
+height:105px !important;
+top:12px !important;
+left:12px !important;
 }
 .hero-buttons{
 align-items:center;
