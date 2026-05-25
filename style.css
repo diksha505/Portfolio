@@ -654,25 +654,32 @@ width:58% !important;
 width:42% !important;
 display:flex;
 justify-content:center;
-margin-top:120px;
+align-items: center;
+margin: top 0 !important;
 }
 
 .circle-wrapper{
-width:180px !important;
-height:180px !important;
+width:170px !important;
+height:170px !important;
 position:relative;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 .outer-circle{
-width:180px !important;
-height:180px !important;
+width:170px !important;
+height:170px !important;
+border-radius:50%;
 }
 
 .inner-circle{
-width:145px !important;
-height:145px !important;
-top:17px !important;
-left:17px !important;
+width:138px !important;
+height:138px !important;
+top:16px !important;
+left:16px !important;
+border-radius:50%;
+overflow:hidden;
 }
 .hero-buttons{
 align-items:center;
