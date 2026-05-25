@@ -637,11 +637,34 @@ font-size:15px;
 @media(max-width:480px){
 
 .hero{
-flex-direction:row;
-text-align:left;
-justify-content:space-between;
-align-items:center;
-gap:20px;
+display:flex !important;
+flex-direction:row !important;
+justify-content:space-between !important;
+align-items:center !important;
+text-align:left !important;
+flex-wrap:nowrap !important;
+}
+
+.hero-left{
+width:55% !important;
+}
+
+.hero-right{
+width:45% !important;
+display:flex;
+justify-content:center;
+}
+
+.circle-wrapper{
+width:170px !important;
+height:170px !important;
+}
+
+.inner-circle{
+width:140px !important;
+height:140px !important;
+top:15px !important;
+left:15px !important;
 }
 
 .hero-buttons{
