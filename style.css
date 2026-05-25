@@ -637,8 +637,11 @@ font-size:15px;
 @media(max-width:480px){
 
 .hero{
-flex-direction:column-reverse;
-text-align:center;
+flex-direction:row;
+text-align:left;
+justify-content:space-between;
+align-items:center;
+gap:20px;
 }
 
 .hero-buttons{
